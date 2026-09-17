@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#8B1E1E"/>
+  <!-- Traditional Barni / Pickle Jar -->
+  <path d="M26 12h12v4H26z" fill="#F59E0B"/>
+  <ellipse cx="32" cy="16" rx="9" ry="3" fill="#D97706"/>
+  <path d="M22 18h20c0 0 4 6 4 12v18c0 5-4 8-14 8s-14-3-14-8V30c0-6 4-12 4-12z" fill="#FAF6F0" stroke="#D97706" stroke-width="2"/>
+  <!-- Top Glaze (Mustard Brown Glaze) -->
+  <path d="M22 18h20c0 0 3 4 3 9H19c0-5 3-9 3-9z" fill="#B45309"/>
+  <!-- Decorative Motif -->
+  <circle cx="32" cy="38" r="5" fill="#8B1E1E"/>
+  <circle cx="32" cy="38" r="2.5" fill="#F59E0B"/>
+  <path d="M20 47c3 2 7 3 12 3s9-1 12-3" stroke="#D97706" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #FDFBF7;
+    --bg-warm: #FAF6F0;
+    --bg-card: #FFFFFF;
+    --earth-red: #8B1E1E;
+    --earth-red-hover: #731818;
+    --earth-red-dark: #5C1414;
+    --mango-gold: #D97706;
+    --mango-light: #F59E0B;
+    --mustard: #EAB308;
+    --chilli-green: #1B4332;
+    --chilli-green-light: #2D6A4F;
+    --text-primary: #2B2118;
+    --text-secondary: #6B5E51;
+    --text-muted: #8F8171;
+    --border-warm: #EADCC9;
+  }
+
+  body {
+    background-color: var(--bg-cream);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B45309;
+}
+
+/* Subtle animation utilities */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Pattern overlay for premium Indian heritage feel */
+.bg-mandala-subtle {
+  background-image: radial-gradient(#d9770615 1px, transparent 1px);
+  background-size: 20px 20px;
+}
