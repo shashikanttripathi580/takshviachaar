@@ -19,7 +19,7 @@ export const AboutPage: React.FC = () => {
       title: 'Sun-Drying on Cotton Sheets',
       hindi: 'धूप में सुखाई',
       desc: 'Freshly cut fruits are salted and spread on unbleached muslin sheets on rooftops to naturally release excess moisture.',
-      image: '/images/lemon-pickle-container.jpg',
+      image: '/images/lemon-mitha-container.jpg',
     },
     {
       step: '03',
@@ -33,7 +33,7 @@ export const AboutPage: React.FC = () => {
       title: '21-Day Barni Aging',
       hindi: 'बरनी में प्राकृतिक फर्मेंटेशन',
       desc: 'Packed into glazed ceramic martabans with pure cold-pressed mustard oil, basking in the sun until flavours harmonize.',
-      image: '/images/punjabi-pickle-container.jpg',
+      image: '/images/dates-pickle-container.jpg',
     },
   ];
 

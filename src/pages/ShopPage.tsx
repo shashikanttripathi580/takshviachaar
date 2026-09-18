@@ -63,13 +63,13 @@ export const ShopPage: React.FC<ShopPageProps> = ({ onQuickView }) => {
       }
 
       // Price filter
-      if (selectedPriceRange === 'under-200' && product.price >= 200) {
+      if (selectedPriceRange === 'under-50' && product.price >= 50) {
         return false;
       }
-      if (selectedPriceRange === '200-250' && (product.price < 200 || product.price > 250)) {
+      if (selectedPriceRange === '50-100' && (product.price < 50 || product.price > 100)) {
         return false;
       }
-      if (selectedPriceRange === 'above-250' && product.price <= 250) {
+      if (selectedPriceRange === 'above-100' && product.price <= 100) {
         return false;
       }
 

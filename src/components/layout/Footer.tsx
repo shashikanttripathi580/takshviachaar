@@ -103,11 +103,11 @@ export const Footer: React.FC = () => {
             {/* Social Icons */}
             <div className="pt-2 flex items-center gap-3">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/takshviachaar"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-full bg-stone-800 hover:bg-[#8B1E1E] flex items-center justify-center text-stone-300 hover:text-white transition-colors"
-                aria-label="Follow us on Instagram"
+                aria-label="Follow us on Instagram @takshviachaar"
               >
                 <InstagramIcon className="w-4 h-4" />
               </a>
@@ -208,13 +208,13 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="space-y-3 text-sm text-stone-300">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919009624621"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 hover:text-amber-300 transition-colors text-emerald-400"
               >
                 <MessageCircle className="w-4 h-4 shrink-0" />
-                <span>WhatsApp: +91 98765 43210</span>
+                <span>WhatsApp: +91 90096 24621</span>
               </a>
               <a
                 href="mailto:namaste@takshviachaar.com"
@@ -224,11 +224,11 @@ export const Footer: React.FC = () => {
                 <span>namaste@takshviachaar.com</span>
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+919009624621"
                 className="flex items-center gap-2 hover:text-amber-300 transition-colors"
               >
                 <Phone className="w-4 h-4 shrink-0 text-amber-400" />
-                <span>+91 (0) 98765 43210</span>
+                <span>+91 90096 24621</span>
               </a>
               <div className="flex items-start gap-2 pt-1 text-xs text-stone-400">
                 <MapPin className="w-4 h-4 shrink-0 text-amber-400 mt-0.5" />

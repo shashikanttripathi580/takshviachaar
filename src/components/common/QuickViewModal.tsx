@@ -16,7 +16,7 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, onClose
   const { addToCart, setIsCartOpen } = useCart();
   const { navigate } = useNavigation();
 
-  const [selectedWeight, setSelectedWeight] = useState(product?.defaultWeight || '250g');
+  const [selectedWeight, setSelectedWeight] = useState(product?.defaultWeight || '125gm');
   const [quantity, setQuantity] = useState(1);
 
   if (!product) return null;

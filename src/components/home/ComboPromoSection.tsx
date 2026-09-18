@@ -9,10 +9,10 @@ export const ComboPromoSection: React.FC = () => {
   const { navigate } = useNavigation();
 
   // Find the combo product
-  const comboProduct = PRODUCTS.find((p) => p.id === 'ag-combo-09') || PRODUCTS[0];
+  const comboProduct = PRODUCTS.find((p) => p.category === 'combo') || PRODUCTS[0];
 
   const handleGetCombo = () => {
-    addToCart(comboProduct, '4 x 250g (1kg Total)', 1);
+    addToCart(comboProduct, comboProduct.defaultWeight, 1);
     setIsCartOpen(true);
   };
 
@@ -36,32 +36,31 @@ export const ComboPromoSection: React.FC = () => {
                   Pickle Lovers Combo
                 </h2>
                 <p className="text-amber-200 text-sm sm:text-base font-medium mt-1">
-                  ४ पारंपारिक स्वादों का अनोखा संगम (Set of 4 Heritage Barni Jars)
+                  ४ पारंपारिक स्वादों का अनोखा संगम (Set of 4 Fresh Heritage Tubs)
                 </p>
               </div>
 
               <p className="text-stone-200 text-sm sm:text-base leading-relaxed max-w-xl">
-                Can’t decide which pickle to try first? Bring home the holy grail of Indian dining.
-                Get our four top-rated handcrafted pickles packed in a rigid eco-friendly presentation box with a traditional neem-wood spoon.
+                Can’t decide which pickle to try first? Bring home our top handcrafted recipes packed in clean food-grade airtight containers with a complimentary wooden spoon.
               </p>
 
               {/* The 4 Jars Checklist */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Banarasi Aam Ka Achaar (250g)</span>
+                  <span className="text-xs sm:text-sm font-semibold">1x Royal Dates Achaar (125gm)</span>
                 </div>
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Sun-Cured Nimbu Achaar (250g)</span>
+                  <span className="text-xs sm:text-sm font-semibold">1x Desi Lahsun Achaar (125gm)</span>
                 </div>
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Stuffed Banarasi Mirchi (250g)</span>
+                  <span className="text-xs sm:text-sm font-semibold">1x Sun-Cured Lemon Achaar (125gm)</span>
                 </div>
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Panchranga Mix Achaar (250g)</span>
+                  <span className="text-xs sm:text-sm font-semibold">1x Banarasi Aam Ka Achaar (125gm)</span>
                 </div>
               </div>
 
@@ -70,17 +69,17 @@ export const ComboPromoSection: React.FC = () => {
                 <div>
                   <div className="flex items-baseline gap-3">
                     <span className="font-serif-heading text-4xl sm:text-5xl font-extrabold text-amber-300">
-                      ₹699
+                      ₹125
                     </span>
                     <span className="text-xl text-stone-300 line-through">
-                      ₹796
+                      ₹165
                     </span>
                     <span className="bg-emerald-600 text-white font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">
-                      Save ₹97
+                      Save ₹40
                     </span>
                   </div>
                   <p className="text-xs text-stone-300 mt-1">
-                    Free Pan-India Delivery Included (1kg Net Weight)
+                    Special Introductory Price (Fresh 125gm Jars Set)
                   </p>
                 </div>
 

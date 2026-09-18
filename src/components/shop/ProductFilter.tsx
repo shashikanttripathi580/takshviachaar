@@ -51,9 +51,9 @@ export const ProductFilter: React.FC<ProductFilterProps> = ({
 
   const priceRanges: { label: string; value: string }[] = [
     { label: 'All Prices', value: 'all' },
-    { label: 'Under ₹200', value: 'under-200' },
-    { label: '₹200 - ₹250', value: '200-250' },
-    { label: 'Above ₹250', value: 'above-250' },
+    { label: 'Under ₹50', value: 'under-50' },
+    { label: '₹50 - ₹100', value: '50-100' },
+    { label: 'Above ₹100', value: 'above-100' },
   ];
 
   return (

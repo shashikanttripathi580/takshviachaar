@@ -12,34 +12,34 @@ const InstagramIcon: React.FC<{ className?: string }> = ({ className = 'w-4 h-4'
 export const SocialGrid: React.FC = () => {
   const posts = [
     {
-      image: '/images/mango-pickle-container.jpg',
-      tag: '#AamKaAchaar',
+      image: '/images/dates-pickle-container.jpg',
+      tag: '#DatesAchaar',
+      likes: '1.4k',
+    },
+    {
+      image: '/images/garlic-pickle-container.jpg',
+      tag: '#LahsunAchaar',
       likes: '1.2k',
     },
     {
-      image: '/images/red-chilli-container.jpg',
-      tag: '#BanarasiMirch',
-      likes: '948',
-    },
-    {
-      image: '/images/lemon-pickle-container.jpg',
-      tag: '#SunCuredNimbu',
+      image: '/images/lemon-mitha-container.jpg',
+      tag: '#LemonMitha',
       likes: '1.5k',
     },
     {
-      image: '/images/mixed-pickle-container.jpg',
-      tag: '#MixAchaarLovers',
-      likes: '810',
+      image: '/images/lemon-khatta-container.jpg',
+      tag: '#LemonKhatta',
+      likes: '1.1k',
     },
     {
-      image: '/images/mango-launji-container.jpg',
-      tag: '#SweetLaunji',
-      likes: '2.1k',
+      image: '/images/mango-pickle-container.jpg',
+      tag: '#AamKaAchaar',
+      likes: '2.3k',
     },
     {
       image: '/images/combo-pickle-containers.jpg',
-      tag: '#GharKaSwad',
-      likes: '1.8k',
+      tag: '#TakshviAchaar',
+      likes: '1.9k',
     },
   ];
 
@@ -62,7 +62,7 @@ export const SocialGrid: React.FC = () => {
           </div>
 
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/takshviachaar"
             target="_blank"
             rel="noreferrer"
             className="bg-white hover:bg-[#8B1E1E] text-[#8B1E1E] hover:text-white border-2 border-[#8B1E1E] px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all shadow-xs flex items-center gap-2 cursor-pointer"

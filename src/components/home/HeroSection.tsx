@@ -105,7 +105,7 @@ export const HeroSection: React.FC = () => {
                   <div className="text-right">
                     <p className="text-[10px] uppercase font-bold text-amber-300">Bestseller</p>
                     <p className="font-serif-heading text-sm font-bold leading-tight">Banarasi Aam Ka Achaar</p>
-                    <p className="text-xs font-bold text-amber-200">₹199 / 250g</p>
+                    <p className="text-xs font-bold text-amber-200">₹49 / 125gm</p>
                   </div>
                   <button
                     onClick={() => navigate('/product/aam-ka-achaar')}
@@ -120,44 +120,44 @@ export const HeroSection: React.FC = () => {
               {/* Mini Gallery Strip below hero jar */}
               <div className="grid grid-cols-3 gap-2.5 mt-3">
                 <div
-                  onClick={() => navigate('/product/nimbu-ka-achaar')}
+                  onClick={() => navigate('/product/dates-achaar')}
                   className="rounded-xl overflow-hidden aspect-4/3 relative group cursor-pointer border border-[#EADCC9]"
                 >
                   <img
-                    src="/images/lemon-pickle-container.jpg"
-                    alt="Nimbu Pickle Container"
+                    src="/images/dates-pickle-container.jpg"
+                    alt="Dates Pickle Container"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent flex items-end p-1.5">
-                    <span className="text-[11px] font-bold text-white leading-tight">Nimbu</span>
+                    <span className="text-[11px] font-bold text-white leading-tight">Dates (₹65)</span>
                   </div>
                 </div>
 
                 <div
-                  onClick={() => navigate('/product/mirchi-ka-achaar')}
+                  onClick={() => navigate('/product/lemon-mitha-achaar')}
                   className="rounded-xl overflow-hidden aspect-4/3 relative group cursor-pointer border border-[#EADCC9]"
                 >
                   <img
-                    src="/images/red-chilli-container.jpg"
-                    alt="Lal Mirchi Pickle Container"
+                    src="/images/lemon-mitha-container.jpg"
+                    alt="Lemon Mitha Pickle Container"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent flex items-end p-1.5">
-                    <span className="text-[11px] font-bold text-white leading-tight">Lal Mirchi</span>
+                    <span className="text-[11px] font-bold text-white leading-tight">Lemon (₹48)</span>
                   </div>
                 </div>
 
                 <div
-                  onClick={() => navigate('/product/mix-achaar')}
+                  onClick={() => navigate('/product/lahsun-ka-achaar')}
                   className="rounded-xl overflow-hidden aspect-4/3 relative group cursor-pointer border border-[#EADCC9]"
                 >
                   <img
-                    src="/images/mixed-pickle-container.jpg"
-                    alt="Panchranga Mix Pickle Container"
+                    src="/images/garlic-pickle-container.jpg"
+                    alt="Lahsun Pickle Container"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent flex items-end p-1.5">
-                    <span className="text-[11px] font-bold text-white leading-tight">Mix Achaar</span>
+                    <span className="text-[11px] font-bold text-white leading-tight">Lahsun (₹52)</span>
                   </div>
                 </div>
               </div>

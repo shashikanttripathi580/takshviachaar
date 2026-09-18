@@ -95,7 +95,7 @@ export const ContactPage: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             {/* WhatsApp Quick Card */}
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919009624621"
               target="_blank"
               rel="noreferrer"
               className="bg-emerald-50 border-2 border-emerald-300 rounded-3xl p-6 flex items-start gap-4 hover:shadow-md transition-all group"
@@ -114,7 +114,7 @@ export const ContactPage: React.FC = () => {
                   Available Monday – Saturday, 9:00 AM – 7:00 PM IST for instant ordering assistance.
                 </p>
                 <span className="text-xs font-bold text-emerald-700 underline block pt-1">
-                  +91 98765 43210 →
+                  +91 90096 24621 →
                 </span>
               </div>
             </a>
@@ -144,10 +144,10 @@ export const ContactPage: React.FC = () => {
                 <div>
                   <span className="text-xs font-bold text-[#2B2118] block">Direct Helpline</span>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919009624621"
                     className="text-xs text-[#8B1E1E] font-medium hover:underline"
                   >
-                    +91 (0) 98765 43210
+                    +91 90096 24621
                   </a>
                   <p className="text-[11px] text-stone-400 mt-0.5">Mon – Sat, 10 AM to 6 PM IST</p>
                 </div>
