@@ -359,18 +359,18 @@ export const PRODUCTS: Product[] = [
     slug: 'pickle-lovers-combo',
     name: 'Pickle Lovers Combo Pack',
     hindiName: 'तक्ष्वी अचार प्रेमी कॉम्बो सेट',
-    shortDescription: 'Our 4 most celebrated jars in one artisanal pack: Dates Achaar, Lahsun, Lemon & Aam Ka Achaar.',
-    description: 'The ultimate culinary gift for your dining table or loved ones. The Pickle Lovers Combo brings together four handcrafted heritage recipes: Royal Dates Achaar, Ayurvedic Lahsun Achaar, Sun-Cured Lemon Achaar, and Banarasi Aam Ka Achaar. Packed in food-grade tamper-proof containers. Special festive price of ₹125 (Original Rate ₹165).',
+    shortDescription: 'Signature trio pack: Lemon Mitha, Lemon Khatta, and Royal Dates Achaar.',
+    description: 'The ultimate trio pack celebrating authentic homemade flavors: Sweet Lemon (मीठा नींबू), Tangy Lemon (खट्टा नींबू), and Royal Dates Achaar (शाही खजूर). Handcrafted in small batches and packed in premium food-grade airtight containers. Special combo rate of ₹125 (Original MRP ₹165).',
     category: 'combo',
     spiceLevel: 'Medium',
     rating: 5.0,
     reviewsCount: 260,
     price: 125,
     originalPrice: 165,
-    defaultWeight: 'Combo Pack (125gm Set)',
+    defaultWeight: 'Combo Pack (125gm x 3)',
     weights: [
-      { weight: 'Combo Pack (125gm Set)', price: 125, originalPrice: 165, inStock: true },
-      { weight: 'Combo Pack (325gm Set)', price: 285, originalPrice: 365, inStock: true }
+      { weight: 'Combo Pack (125gm x 3)', price: 125, originalPrice: 165, inStock: true },
+      { weight: 'Combo Pack (325gm x 3)', price: 285, originalPrice: 365, inStock: true }
     ],
     images: [
       '/images/combo-pickle-containers.jpg'
@@ -378,11 +378,10 @@ export const PRODUCTS: Product[] = [
     badge: 'Save ₹40 (Best Value)',
     isBestseller: true,
     ingredients: [
+      '1x Lemon Mitha Achaar (125gm)',
+      '1x Lemon Khatta Achaar (125gm)',
       '1x Royal Dates Achaar (125gm)',
-      '1x Desi Lahsun Ka Achaar (125gm)',
-      '1x Sun-Cured Lemon Achaar (125gm)',
-      '1x Banarasi Aam Ka Achaar (125gm)',
-      'Complimentary Wooden Pickle Spoon'
+      'Airtight Tamper-Proof Food-Grade Containers'
     ],
     nutrition: {
       servingSize: '15g Average',
@@ -394,7 +393,7 @@ export const PRODUCTS: Product[] = [
     },
     storage: 'Store all containers in a cool, dry place. Keep seal intact.',
     shelfLife: '12 Months from Manufacturing Date',
-    oilType: 'Pure Cold-Pressed Mustard Oil & Zero-Oil Sun Cure',
+    oilType: 'Lemon-Infused Natural Sun Cure & Cold-Pressed Spices',
     pairings: [
       { name: 'Grand Indian Festive Thali', desc: 'Let your guests choose their favourite flavour note.' },
       { name: 'Family Sunday Brunch', desc: 'A variety jar for every family member’s personal preference.' },

@@ -311,7 +311,7 @@ export const CheckoutPage: React.FC = () => {
                     </label>
                     <input
                       type="text"
-                      placeholder="Varanasi"
+                      placeholder="Indore"
                       value={formData.city}
                       onChange={(e) => handleInputChange('city', e.target.value)}
                       className={`w-full px-3.5 py-2.5 text-sm bg-[#FAF6F0] border rounded-xl focus:outline-none focus:bg-white ${

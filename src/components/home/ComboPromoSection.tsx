@@ -36,31 +36,27 @@ export const ComboPromoSection: React.FC = () => {
                   Pickle Lovers Combo
                 </h2>
                 <p className="text-amber-200 text-sm sm:text-base font-medium mt-1">
-                  ४ पारंपारिक स्वादों का अनोखा संगम (Set of 4 Fresh Heritage Tubs)
+                  ३ पारंपारिक स्वादों का अनोखा संगम (Set of 3 Fresh Heritage Tubs)
                 </p>
               </div>
 
               <p className="text-stone-200 text-sm sm:text-base leading-relaxed max-w-xl">
-                Can’t decide which pickle to try first? Bring home our top handcrafted recipes packed in clean food-grade airtight containers with a complimentary wooden spoon.
+                Can’t decide which pickle to try first? Bring home our top handcrafted recipes: Lemon Mitha, Lemon Khatta, and Royal Dates Achaar packed in clean food-grade airtight containers.
               </p>
 
-              {/* The 4 Jars Checklist */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+              {/* The 3 Jars Checklist */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Royal Dates Achaar (125gm)</span>
+                  <span className="text-xs sm:text-sm font-semibold">Lemon Mitha (125gm)</span>
                 </div>
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Desi Lahsun Achaar (125gm)</span>
+                  <span className="text-xs sm:text-sm font-semibold">Lemon Khatta (125gm)</span>
                 </div>
                 <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
                   <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Sun-Cured Lemon Achaar (125gm)</span>
-                </div>
-                <div className="flex items-center gap-2.5 bg-white/10 backdrop-blur-xs px-3.5 py-2 rounded-xl border border-white/15">
-                  <Check className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span className="text-xs sm:text-sm font-semibold">1x Banarasi Aam Ka Achaar (125gm)</span>
+                  <span className="text-xs sm:text-sm font-semibold">Royal Dates Achaar (125gm)</span>
                 </div>
               </div>
 
@@ -107,7 +103,7 @@ export const ComboPromoSection: React.FC = () => {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-300/40 bg-black/20 group">
                 <img
                   src="/images/combo-pickle-containers.jpg"
-                  alt="Pickle Lovers Combo Quad Pack"
+                  alt="Pickle Lovers Combo Trio Pack"
                   className="w-full h-80 sm:h-96 object-cover transform group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute top-4 right-4 bg-[#8B1E1E] text-amber-300 border border-amber-400 px-3 py-1 rounded-full text-xs font-bold shadow-lg flex items-center gap-1">

@@ -114,7 +114,7 @@ export const ContactPage: React.FC = () => {
                   Available Monday – Saturday, 9:00 AM – 7:00 PM IST for instant ordering assistance.
                 </p>
                 <span className="text-xs font-bold text-emerald-700 underline block pt-1">
-                  +91 90096 24621 →
+                  9009624621 →
                 </span>
               </div>
             </a>
@@ -130,10 +130,10 @@ export const ContactPage: React.FC = () => {
                 <div>
                   <span className="text-xs font-bold text-[#2B2118] block">Email Us</span>
                   <a
-                    href="mailto:namaste@takshviachaar.com"
+                    href="mailto:productbyhap@gmail.com"
                     className="text-xs text-[#8B1E1E] font-medium hover:underline"
                   >
-                    namaste@takshviachaar.com
+                    productbyhap@gmail.com
                   </a>
                   <p className="text-[11px] text-stone-400 mt-0.5">Responses within 24 business hours</p>
                 </div>
@@ -144,10 +144,10 @@ export const ContactPage: React.FC = () => {
                 <div>
                   <span className="text-xs font-bold text-[#2B2118] block">Direct Helpline</span>
                   <a
-                    href="tel:+919009624621"
+                    href="tel:9009624621"
                     className="text-xs text-[#8B1E1E] font-medium hover:underline"
                   >
-                    +91 90096 24621
+                    9009624621
                   </a>
                   <p className="text-[11px] text-stone-400 mt-0.5">Mon – Sat, 10 AM to 6 PM IST</p>
                 </div>
@@ -158,7 +158,7 @@ export const ContactPage: React.FC = () => {
                 <div>
                   <span className="text-xs font-bold text-[#2B2118] block">Kitchen Workshop & Dispatch</span>
                   <p className="text-xs text-[#6B5E51] leading-relaxed">
-                    Takshvi Achaar Heritage Kitchen, Kabir Chaura, Heritage Spices Quarter, Varanasi, Uttar Pradesh - 221001
+                    MR-9, Mechanic Nagar, Indore, Madhya Pradesh - 452010
                   </p>
                 </div>
               </div>

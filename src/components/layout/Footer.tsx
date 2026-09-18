@@ -211,28 +211,28 @@ export const Footer: React.FC = () => {
                 href="https://wa.me/919009624621"
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-2 hover:text-amber-300 transition-colors text-emerald-400"
+                className="flex items-center gap-2.5 hover:text-amber-300 transition-colors text-emerald-400"
               >
-                <MessageCircle className="w-4 h-4 shrink-0" />
-                <span>WhatsApp: +91 90096 24621</span>
+                <MessageCircle className="w-4 h-4 shrink-0 text-emerald-400" />
+                <span>WhatsApp: 9009624621</span>
               </a>
               <a
-                href="mailto:namaste@takshviachaar.com"
-                className="flex items-center gap-2 hover:text-amber-300 transition-colors"
+                href="mailto:productbyhap@gmail.com"
+                className="flex items-center gap-2.5 hover:text-amber-300 transition-colors"
               >
                 <Mail className="w-4 h-4 shrink-0 text-amber-400" />
-                <span>namaste@takshviachaar.com</span>
+                <span>productbyhap@gmail.com</span>
               </a>
               <a
-                href="tel:+919009624621"
-                className="flex items-center gap-2 hover:text-amber-300 transition-colors"
+                href="tel:9009624621"
+                className="flex items-center gap-2.5 hover:text-amber-300 transition-colors"
               >
                 <Phone className="w-4 h-4 shrink-0 text-amber-400" />
-                <span>+91 90096 24621</span>
+                <span>Call: 9009624621</span>
               </a>
-              <div className="flex items-start gap-2 pt-1 text-xs text-stone-400">
+              <div className="flex items-start gap-2.5 pt-1 text-xs text-stone-400 leading-relaxed">
                 <MapPin className="w-4 h-4 shrink-0 text-amber-400 mt-0.5" />
-                <span>Traditional Kitchen Workshop, Kabir Chaura, Varanasi, UP - 221001</span>
+                <span>MR-9, Mechanic Nagar, Indore, Madhya Pradesh - 452010</span>
               </div>
             </div>
           </div>
